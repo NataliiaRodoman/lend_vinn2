@@ -1,0 +1,56 @@
+.charity__content {
+  display: flex;
+  align-items: center;
+  padding: 50px 0px;  
+  gap: 40px;
+}
+
+.charity__foto {
+  display: flex;
+  position: relative;
+  flex-basis: 50%;
+}
+
+.charity__text {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 50%;
+  gap: 10px;
+}
+
+.charity__box-foto {
+  display: flex;
+  position: relative;
+  object-fit: contain;
+}
+
+.charity__foto1 {
+  display: flex;
+  position: absolute;
+  top: -150px;
+  left: 110px;
+  width: 413px;
+  z-index: 10;
+}
+
+.charity__imagcharity {
+  height: 80%;
+  width: 80%;
+}
+
+.charity__foto2 {
+  display: flex;
+  position: absolute;
+  top: -250px;
+  left: 420px;
+  width: 413px;
+}
+
+.charity__foto3 {
+  display: flex;
+  position: absolute;
+  top: -50px;
+  left: 420px;
+  width: 413px;
+  z-index: 15;
+}
